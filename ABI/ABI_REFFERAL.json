@@ -1,0 +1,34 @@
+[
+  {
+    "inputs": [
+      { "internalType": "address", "name": "referral", "type": "address" }
+    ],
+    "name": "contribute",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "name": "claim",
+    "inputs": [
+      { "internalType": "address[]", "name": "pools", "type": "address[]" }
+    ],
+    "outputs": [],
+    "stateMutability": "nopayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "claim",
+    "outputs": [],
+    "stateMutability": "nopayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "isFinalized",
+    "outputs": [],
+    "stateMutability": "nopayable",
+    "type": "function"
+  }
+]
